@@ -1,0 +1,30 @@
+{
+  "_comment": "Example calibration file for config.load_params(). Mirrors the config structure. Only the keys present are overlaid.",
+
+  "cohorts": {
+    "Squeezed": {
+      "marginals": {
+        "income":          {"mean": 1580.0, "cv": 0.27},
+        "essential_ratio": {"mean": 0.86},
+        "savings_buffer":  {"median": 280.0, "p_zero": 0.22}
+      }
+    },
+    "Squeezed Middle": {
+      "marginals": {
+        "income": {"mean": 2640.0}
+      }
+    },
+    "Mass Affluent": {
+      "marginals": {
+        "income":          {"mean": 4620.0},
+        "savings_buffer":  {"median": 11800.0}
+      }
+    }
+  },
+
+  "product_apr_spread": {
+    "instant_access": 0.000,
+    "isa": 0.006,
+    "term_deposit": 0.011
+  }
+}
